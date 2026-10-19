@@ -1,0 +1,50 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.resolved.bak
+
+# CocoaPods / Carthage (pro jistotu)
+Pods/
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Tajné klíče a konfigurace (NIKDY necommitovat)
+*.env
+.env*
+!.env.example
+Secrets.xcconfig
+Config/Secrets*.xcconfig
+GoogleService-Info.plist
+
+# Supabase lokální běh
+supabase/.branches/
+supabase/.temp/
+
+# Editory
+.vscode/
+.idea/
+*.swp

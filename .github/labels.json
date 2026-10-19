@@ -1,0 +1,14 @@
+[
+  {"name": "score",       "color": "1f883d", "description": "Pilíř Score: zadávání bodů na Apple Watch"},
+  {"name": "smart",       "color": "8250df", "description": "Pilíř Smart: AI rozbor, dashboardy, historie"},
+  {"name": "social",      "color": "0969da", "description": "Pilíř Social: přátelé, H2H, žebříčky, feed"},
+  {"name": "backend",     "color": "bf8700", "description": "Supabase, databáze, RLS, Edge Functions"},
+  {"name": "sync",        "color": "57606a", "description": "WatchConnectivity a synchronizace dat"},
+  {"name": "ui/ux",       "color": "e85aad", "description": "Design, wireframy, ergonomie"},
+  {"name": "dokumentace", "color": "0e8a16", "description": "Dokumentace projektu a školní výstupy"},
+  {"name": "funkce",      "color": "a2eeef", "description": "Nová funkce"},
+  {"name": "chyba",       "color": "d73a4a", "description": "Něco nefunguje"},
+  {"name": "MUST",        "color": "b60205", "description": "Nutné pro verzi 1.0"},
+  {"name": "SHOULD",      "color": "fbca04", "description": "Mělo by být ve verzi 1.0"},
+  {"name": "NICE",        "color": "c5def5", "description": "Bonus, když zbude čas"}
+]
