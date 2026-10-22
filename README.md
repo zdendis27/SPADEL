@@ -37,6 +37,7 @@ docs/
   harmonogram.md      Časový plán 2. 11. 2026 – 28. 2. 2027
   lean-canvas.md      Lean Canvas (text)
   lean-canvas.xlsx    Lean Canvas (originál)
+  uzivatelske-cesty.md  Persony, uživatelské cesty a mapa obrazovek
 .github/              Šablony issues a pull requestů
 CLAUDE.md             Pokyny pro Claude při práci v repozitáři
 ```
