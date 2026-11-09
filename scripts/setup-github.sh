@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Založí štítky a milníky M1–M6 v repozitáři SPADEL. Vyžaduje gh a jq.
+# Založí štítky a milníky M1–M6 v repozitáři PADEE. Vyžaduje gh a jq.
 set -euo pipefail
 REPO="${1:-zdendis27/SPADEL}"
 DIR="$(cd "$(dirname "$0")/.." && pwd)"

@@ -1,8 +1,8 @@
-# SPADEL 🎾
+# PADEE 🎾
 
 > **„Strava potkává Playtomic s integrovaným AI trenérem."**
 
-SPADEL je mobilní aplikace pro **iPhone a Apple Watch** pro amatérské i pokročilé hráče padelu. Body se zadávají přímo na kurtu z hodinek jedním klepnutím, AI z průběhu zápasu udělá rozbor a aplikace sama vede Head-to-Head bilance a klubové žebříčky. Místo WhatsApp skupin a Excelu.
+PADEE je mobilní aplikace pro **iPhone a Apple Watch** pro amatérské i pokročilé hráče padelu. Body se zadávají přímo na kurtu z hodinek jedním klepnutím, AI z průběhu zápasu udělá rozbor a aplikace sama vede Head-to-Head bilance a klubové žebříčky. Místo WhatsApp skupin a Excelu.
 
 Školní technický projekt 2026 · autor: Zdeněk Vacek
 
@@ -24,7 +24,7 @@ SPADEL je mobilní aplikace pro **iPhone a Apple Watch** pro amatérské i pokro
 - **Backend:** Supabase (PostgreSQL, Sign in with Apple, RLS, Realtime, Edge Functions)
 - **AI:** LLM API (Claude / OpenAI) volané přes Supabase Edge Function
 - **Grafy:** Swift Charts
-- **Monetizace:** Freemium (Basic zdarma, SPADEL Pro předplatné přes StoreKit 2)
+- **Monetizace:** Freemium (Basic zdarma, PADEE Pro předplatné přes StoreKit 2)
 
 ## Struktura repozitáře
 
