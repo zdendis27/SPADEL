@@ -1,4 +1,4 @@
-# SPADEL – časový harmonogram (2. 11. 2026 – 28. 2. 2027)
+# PADEE – časový harmonogram (2. 11. 2026 – 28. 2. 2027)
 
 Zdeněk Vacek · odhady vč. rezervy ×2 · celkem 168 h (~10 h/týden)
 

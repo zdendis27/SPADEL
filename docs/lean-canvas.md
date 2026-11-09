@@ -1,4 +1,4 @@
-# SPADEL – Lean Canvas
+# PADEE – Lean Canvas
 
 Textový přepis z [lean-canvas.xlsx](lean-canvas.xlsx).
 
@@ -71,4 +71,4 @@ Textový přepis z [lean-canvas.xlsx](lean-canvas.xlsx).
 
 • Freemium Model:
   - Basic (Zdarma): Nahrávání zápasů na Apple Watch, základní historie a komunitní feed.
-  - SPADEL Pro (Předplatné): Pokročilé AI rozbory zápasů, podrobné Head-to-Head statistiky, klubové žebříčky a exporty.
+  - PADEE Pro (Předplatné): Pokročilé AI rozbory zápasů, podrobné Head-to-Head statistiky, klubové žebříčky a exporty.

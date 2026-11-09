@@ -1,9 +1,9 @@
 # CLAUDE.md
 
-Pokyny pro Claude při práci v repozitáři SPADEL.
+Pokyny pro Claude při práci v repozitáři PADEE.
 
 ## O projektu
-SPADEL je padelová aplikace pro iOS + watchOS (Score / Smart / Social). Kontext je v [README.md](README.md), plán v [docs/harmonogram.md](docs/harmonogram.md).
+PADEE je padelová aplikace pro iOS + watchOS (Score / Smart / Social). Kontext je v [README.md](README.md), plán v [docs/harmonogram.md](docs/harmonogram.md).
 
 Autor začíná se Swiftem od nuly, takže kód vysvětluj a komentuj tak, aby se z něj dalo učit.
 
