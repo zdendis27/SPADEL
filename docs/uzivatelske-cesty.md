@@ -1,6 +1,6 @@
-# SPADEL – uživatelské cesty
+# PADEE – uživatelské cesty
 
-Jak hráči SPADEL používají: persony, jejich chování kolem zápasu, hlavní cesty na hodinkách a iPhonu a mapa obrazovek. Odsouhlaseno se Zdeňkem 22. 10. 2026. Pracovní verze s komentáři je v [Claude Doc](https://claude.ai/artifact/N4aS45ZkwHywXdk6HdXmi4).
+Jak hráči PADEE používají: persony, jejich chování kolem zápasu, hlavní cesty na hodinkách a iPhonu a mapa obrazovek. Odsouhlaseno se Zdeňkem 22. 10. 2026. Pracovní verze s komentáři je v [Claude Doc](https://claude.ai/artifact/N4aS45ZkwHywXdk6HdXmi4).
 
 ## Princip: hodinky hrají, telefon vypráví
 
@@ -46,14 +46,14 @@ Aplikace má pět cest. Cesta B (zápas na hodinkách) je jádro a musí být ho
 ### A. První spuštění (iPhone, cca 1 minuta)
 
 1. Úvodní obrazovka: jedna věta o třech pilířích a tlačítko Sign in with Apple.
-2. Profil: jméno a fotka z Apple ID, doplní se domovský klub a úroveň (začátečník / střední / pokročilý). Hráč dostane své **SPADEL ID**, 5 znaků jako `K7Q2M`.
+2. Profil: jméno a fotka z Apple ID, doplní se domovský klub a úroveň (začátečník / střední / pokročilý). Hráč dostane své **PADEE ID**, 5 znaků jako `K7Q2M`.
 3. Oprávnění: Zdraví (tep, kalorie) a notifikace, každé s jednou větou proč.
-4. Kontrola hodinek: „SPADEL je na tvých hodinkách“ s návodem, jak ho tam přidat.
+4. Kontrola hodinek: „PADEE je na tvých hodinkách“ s návodem, jak ho tam přidat.
 5. Konečně: „Jdi hrát“. Kamarády si může přidat hned zadáním jejich ID, nebo kdykoli později.
 
 ### B. Zápas na hodinkách (jádro, Score)
 
-1. Otevře SPADEL nebo komplikaci na ciferníku → velké tlačítko **Nový zápas** (a „Stejně jako minule“).
+1. Otevře PADEE nebo komplikaci na ciferníku → velké tlačítko **Nový zápas** (a „Stejně jako minule“).
 2. Nastavení: formát (na 2 nebo 3 sety), Golden Point ano/ne, tiebreak, kdo podává. Předvyplněno podle posledního zápasu.
 3. Hra: obrazovka rozdělená na dvě poloviny **My / Oni**, klepnutí = bod, haptické potvrzení. Uprostřed velké skóre, nad ním gamy a sety, ukazatel podání.
 4. Undo: swipe nebo Digital Crown vrátí poslední bod.
@@ -73,7 +73,7 @@ Body zapisuje vždy jen jeden hráč za zápas.
 
 ### D. Rivalita (iPhone, Social)
 
-1. Přidání kamaráda: zadá jeho 5znakové SPADEL ID a kamarád je přidaný. Své ID má každý v profilu a může ho poslat jako text.
+1. Přidání kamaráda: zadá jeho 5znakové PADEE ID a kamarád je přidaný. Své ID má každý v profilu a může ho poslat jako text.
 2. Kamarád mě přidá do zápasu → zápas se mi zobrazí v historii a přijde notifikace.
 3. Potvrzení jedním klepnutím (nebo „Nesouhlasím“). Do Elo a H2H se zápas započítá, až ho potvrdí všichni tři ostatní hráči. Do té doby je v historii označený jako čekající. Zápas s hostem bez účtu se do žebříčku nepočítá, dokud se host nezaregistruje a nepotvrdí.
 4. Profil kamaráda: H2H bilance, poslední zápasy, kdo s kým hraje nejlépe jako pár.
@@ -99,7 +99,7 @@ flowchart LR
     T1["Domů<br/>feed přátel, reakce"]
     T2["Zápasy<br/>historie, grafy výkonu"]
     T3["Žebříčky<br/>H2H, klubový žebříček (Elo)"]
-    T4["Profil<br/>SPADEL ID, statistiky, Pro"]
+    T4["Profil<br/>PADEE ID, statistiky, Pro"]
     D["Detail zápasu + AI rozbor<br/>týmy, momentum, tep, sdílet"]
     T2 -- otevře --> D
     D -- "potvrzeno všemi 4" --> T3
@@ -116,5 +116,5 @@ Hodinky mají jen lineární cestu zápasu, nic dalšího. Telefon má čtyři z
 | Kdo zapisuje body? | Jeden hráč za zápas. Spoluhráče a soupeře přidá po synchronizaci a zápas se jim zobrazí taky. |
 | Jak se zadává bod? | Klepnutím na My / Oni. Podrobnější zápis (kdo bod vyhrál, winner/chyba) případně později jako volitelný režim. |
 | Potvrzování výsledků? | Zápas jsou dva týmy po dvou. Skóre jde zbylým třem hráčům a do žebříčku a H2H se počítá až po potvrzení všech. |
-| Jak se přidávají přátelé? | Přes 5znakové SPADEL ID: velká písmena a číslice bez snadno zaměnitelných znaků (0/O, 1/I/L), přes 28 milionů kombinací, přidělené náhodně, jednou změnitelné. |
+| Jak se přidávají přátelé? | Přes 5znakové PADEE ID: velká písmena a číslice bez snadno zaměnitelných znaků (0/O, 1/I/L), přes 28 milionů kombinací, přidělené náhodně, jednou změnitelné. |
 | Web náhled pro pozvané? | Návrh, zatím neodsouhlaseno: až po verzi 1.0. Do té doby pozvánka vede rovnou do App Store a zápas se přiřadí po registraci. |
